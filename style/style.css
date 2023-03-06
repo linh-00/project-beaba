@@ -1,6 +1,6 @@
 * {
   font-family: "Cherry Swash", cursive;
-  
+ 
 }
 
 body {
@@ -26,48 +26,47 @@ body {
 
 
 h1 {
-  display: flex;
   position: absolute;
-  width: 482px;
-  height: 134px;
-  left: 285px;
-  top: 145px;
+  width: 782px;
+  height: 434px;
+  left: 25.2rem;
+  top: 245px;
 
   font-family: "Cherry Swash";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 40px;
+  line-height: 40px;
 
   color: rgba(57, 35, 74, 0.99);
 }
 .image-moon {
   position: absolute;
-  width: 243px;
-  height: 273px;
-  left: 817px;
-  top: -7px;
+  width: 343px;
+  height: 373px;
+  left: 86.6rem;
+  top: 31px;
 }
 
 .image-saturno {
   position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 34px;
-  top: 212px;
+  width: 580px;
+  height: 580px;
+  left: 17.5rem;
+  top: 26.1rem;
 }
 
-.information {
+p {
   position: absolute;
   width: 311px;
   height: 138px;
-  left: 767px;
-  top: 310px;
+  left: 86.6rem;
+  top: 430px;
 
   font-family: "Cherry Swash";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 33px;
 
   color: #39234a;
@@ -76,26 +75,25 @@ h1 {
 button {
   position: absolute;
   width: 331px;
-  height: 72px;
-  left: 739px;
-  top: 558px;
+  height: 4.1rem;
+  left: 86.1rem;
+  top: 43.2rem;
 
   background: #8d96ec;
   border-radius: 45px;
 }
 
-.button-design {
+.button-desing {
   position: absolute;
   width: 316px;
   height: 69px;
-  left: 825px;
-  top: 570px;
+  
 
   font-family: "Cherry Swash";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
 
   color: #39234a;
 }
@@ -104,8 +102,8 @@ button {
   position: absolute;
   width: 113px;
   height: 22px;
-  left: 514px;
-  top: 679px;
+  left: 50.1rem;
+  top: 61.2rem;
 
   font-family: "Cherry Swash";
   font-style: normal;
