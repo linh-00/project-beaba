@@ -1,0 +1,117 @@
+* {
+  font-family: "Cherry Swash", cursive;
+  
+}
+
+body {
+  display: flex;
+  position: center;
+  width: 100vw;
+  height: 100vh;
+
+  margin: 36px;
+  background: linear-gradient(
+    180deg,
+    rgba(121, 180, 235, 0.99) 0%,
+    #966eed 0%,
+    rgba(171, 240, 252, 0.931066) 49.17%,
+    rgba(176, 235, 251, 0.925751) 93.53%,
+    rgba(9, 208, 252, 0.89) 100%,
+    rgba(185, 234, 245, 0.927454) 100%,
+    rgba(42, 200, 247, 0.919478) 100%,
+    rgba(72, 169, 187, 0.927156) 100%
+  );
+  background-blend-mode: saturation;
+}
+
+
+h1 {
+  display: flex;
+  position: absolute;
+  width: 482px;
+  height: 134px;
+  left: 285px;
+  top: 145px;
+
+  font-family: "Cherry Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: rgba(57, 35, 74, 0.99);
+}
+.image-moon {
+  position: absolute;
+  width: 243px;
+  height: 273px;
+  left: 817px;
+  top: -7px;
+}
+
+.image-saturno {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 34px;
+  top: 212px;
+}
+
+.information {
+  position: absolute;
+  width: 311px;
+  height: 138px;
+  left: 767px;
+  top: 310px;
+
+  font-family: "Cherry Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #39234a;
+}
+
+button {
+  position: absolute;
+  width: 331px;
+  height: 72px;
+  left: 739px;
+  top: 558px;
+
+  background: #8d96ec;
+  border-radius: 45px;
+}
+
+.button-design {
+  position: absolute;
+  width: 316px;
+  height: 69px;
+  left: 825px;
+  top: 570px;
+
+  font-family: "Cherry Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #39234a;
+}
+
+.create {
+  position: absolute;
+  width: 113px;
+  height: 22px;
+  left: 514px;
+  top: 679px;
+
+  font-family: "Cherry Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #21074b;
+}
