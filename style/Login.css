@@ -1,0 +1,95 @@
+*{
+font-family: 'Inter';
+color: #0C0607;
+font-style: normal;
+}
+
+.body{
+position: relative;;
+width: 100vw;
+height: 100vh;
+
+left: 0px;
+top: 16px;
+}
+
+.fundo_tela{
+
+position: absolute;
+width: 117.2rem;
+height: 58.2rem;
+left: 0px;
+top: 0px;
+}
+
+legend{
+position: absolute;
+width: 497px;
+height: 96px;
+left: 920px;
+top: 242px;
+
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+
+mix-blend-mode: darken;
+}
+
+
+.input-block + input-block{
+    margin-top: 4.4rem;
+}
+
+.name{
+position: absolute;
+width: 132px;
+height: 31px;
+left: 920px;
+top: 316px;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+}
+
+.idade{
+position: absolute;
+width: 132px;
+height: 31px;
+left: 920px;
+top: 375px;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+}
+
+.nascimento{
+position: absolute;
+width: 154px;
+height: 30px;
+left: 920px;
+top: 425px;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+
+}
+
+form{
+    width: 70rem;
+    margin: 6.4rem auto;
+    background: white;
+    border: 1px solid #d3e2e5;
+
+    border-radius: 2rem;
+
+    overflow: hidden;
+
+    padding: 8rem;
+}
+

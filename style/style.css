@@ -4,24 +4,27 @@
 }
 
 body {
-  display: flex;
-  position: center;
-  width: 100vw;
-  height: 100vh;
+display: flex;
+position: center;
+width: 100vw;
+height: 100vh;
 
-  margin: 36px;
-  background: linear-gradient(
-    180deg,
-    rgba(121, 180, 235, 0.99) 0%,
-    #966eed 0%,
-    rgba(171, 240, 252, 0.931066) 49.17%,
-    rgba(176, 235, 251, 0.925751) 93.53%,
-    rgba(9, 208, 252, 0.89) 100%,
-    rgba(185, 234, 245, 0.927454) 100%,
-    rgba(42, 200, 247, 0.919478) 100%,
-    rgba(72, 169, 187, 0.927156) 100%
-  );
-  background-blend-mode: saturation;
+left: 0px;
+top: 16px;
+
+margin: 36px;
+background: linear-gradient(
+  180deg,
+  rgba(121, 180, 235, 0.99) 0%,
+  #966eed 0%,
+  rgba(171, 240, 252, 0.931066) 49.17%,
+  rgba(176, 235, 251, 0.925751) 93.53%,
+  rgba(9, 208, 252, 0.89) 100%,
+  rgba(185, 234, 245, 0.927454) 100%,
+  rgba(42, 200, 247, 0.919478) 100%,
+  rgba(72, 169, 187, 0.927156) 100%
+);
+background-blend-mode: saturation;
 }
 
 
@@ -72,31 +75,74 @@ p {
   color: #39234a;
 }
 
-button {
+
+
+body .button{
+  text-align:center;
+  background-color:#8D96EC;
+}
+
+.button{
+  position:absolute;
+  display:inline-block;
+  margin:20px;
+
   position: absolute;
   width: 331px;
   height: 4.1rem;
   left: 86.1rem;
   top: 43.2rem;
-
-  background: #8d96ec;
-  border-radius: 45px;
 }
 
-.button-desing {
-  position: absolute;
-  width: 316px;
-  height: 69px;
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#8D96EC;
+  display:block;
+  position:relative;
+  padding:20px 40px;
   
-
-  font-family: "Cherry Swash";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-
-  color: #39234a;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
+
+.button a:active{
+  top:10px;
+  background-color:#8D96EC;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 
 .create {
   position: absolute;

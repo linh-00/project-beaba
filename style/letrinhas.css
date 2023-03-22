@@ -1,0 +1,198 @@
+button{
+    position: absolute;
+    width: 81px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.vogal_a{
+   
+    left: 981px;
+    top: 40px;
+    height: 63px;
+    left: 107.2rem;
+    top: 54px;
+    
+    }
+    
+    .vogal_e{
+    height: 63px;
+    left: 107.2rem;
+    top: 124px;
+    
+    
+    }
+    
+    
+    .vogal_i{
+    height: 63px;
+    left: 107.2rem;
+    top: 208px;
+  
+    }
+    
+    .vogal_o{
+    height: 64px;
+    left: 107.2rem;
+    top: 289px;
+  
+    }
+    
+    .vogal_u{
+    height: 63px;
+    left: 107.2rem;
+    top: 374PX;
+    
+    }
+    
+    .consoante_b{
+    height: 63px;
+    left: 16px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_c{
+    height: 63px;
+    left: 121px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_d{
+    height: 63px;
+    left: 226px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_f{
+    height: 63px;
+    left: 331px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_g{
+    height: 63px;
+    left: 436px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_h{
+    height: 63px;
+    left: 541px;
+    top: 44.5rem;
+
+    }
+    
+    .consoante_j{
+    height: 63px;
+    left: 646px;
+    top: 44.5rem;
+  
+    }
+    
+    .consoante_k{
+    height: 63px;
+    left: 751px;
+    top: 44.5rem;
+    
+        
+    }
+    
+    .consoante_l{
+    height: 63px;
+    left: 856px;
+    top: 44.5rem;
+
+    }
+    
+    .consoante_m{
+    height: 63px;
+    left: 961px;
+    top: 44.5rem;
+
+    }
+    
+    .consoante_n{
+    height: 63px;
+    left: 1066px;
+    top: 44.5rem;
+ 
+    }
+    
+    
+    .consoante_p{
+    height: 63px;
+    left: 1171px;
+    top: 44.5rem;
+ 
+    }
+    
+    .consoante_q{
+    height: 63px;
+    left: 1276px;
+    top: 44.5rem;
+
+    }
+    
+    .consoante_r{
+    height: 63px;
+    left: 1381px;
+    top: 44.5rem;
+     
+    }
+    
+    
+    .consoante_s{
+    height: 63px;
+    left: 1486px;
+    top: 44.5rem;
+
+    }
+    
+    .consoante_t{
+    height: 63px;
+    left: 1591px;
+    top: 44.5rem;
+     
+    }
+
+    .consoante_v{
+    height: 63px;
+    left: 1696px;
+    top: 44.5rem;
+        
+    }
+    
+    .consoante_w{
+
+    height: 63px;
+    left: 646px;
+    top: 49.5rem;
+   
+    }
+    
+    .consoante_y{
+    height: 63px;
+    left: 961px;
+    top: 49.5rem;
+    }
+    
+    .consoante_x{
+    height: 63px;
+    left: 751px;
+    top: 49.5rem;
+    }
+    
+    .consoante_z{
+    height: 63px;
+    left: 856px;
+    top: 49.5rem;  
+    }
