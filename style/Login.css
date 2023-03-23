@@ -36,61 +36,95 @@ line-height: 44px;
 mix-blend-mode: darken;
 }
 
-form{
-    width: 70rem;
-    margin: 6.4rem auto;
-    background: white;
-    border: 1px solid #d3e2e5;
 
-    border-radius: 2rem;
 
-    overflow: hidden;
+fieldset{
+height: 100vh;
+width: 100vw;
+margin: 6.4rem auto;
+background: white;
+border: 1px solid #d3e2e5;
 
-    padding: 8rem;
+border-radius: 2rem;
+
+overflow: hidden;
+
+padding: 8rem;
+
 }
-
-
 
 
 .input-block + input-block{
-    margin-top: 4.4rem;
-}    
+margin-top: 2.4rem;
+}  
 
-.name{
-position: absolute;    
-width: 132px;
-height: 31px;
+.input-block label{
+color: black;
+margin-bottom: .8rem;
+line-height: 1.5;
+
+}
+
+.input-block input, .input-block textarea{
+width: 100%;
+display: flex;
+background: #f5f8fa;
+border: 1px solid #d3e2e5;
+border-radius: .5rem;
+
+color: #000000;
+
+
+}
+
+
+.nome, .name{
+display: flex;
+position: absolute; 
+
+width: 30.5rem;
+height: 35px;
 left: 920px;
 top: 316px;
+justify-content: space-between;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 1.5rem;
+}   
+
+.idade{
+display: flex;
+position: absolute;    
+width: 30.5rem;
+height: 35px;
+left: 920px;
+top: 375px;
+justify-content: space-between;
 
 font-weight: 400;
 font-size: 22px;
 line-height: 27px;
 }
 
-.idade{
-position: absolute;    
-width: 132px;
-height: 31px;
-left: 920px;
-top: 375px;
+textarea .nascimento{ 
+width: 30.5rem;
+height: 80px;
 
-font-weight: 400;
-font-size: 22px;
-line-height: 27px;
 }
 
 .nascimento{
+display: flex;
 position: absolute;    
-width: 154px;
-height: 30px;
+width: 30.5rem;
+height: 35px;
 left: 920px;
-top: 425px;
+top: 430px;
+justify-content: space-between;
 
 font-weight: 400;
 font-size: 22px;
-line-height: 27px;
-
+line-height: 30px;
 color: #000000;
 
 }
